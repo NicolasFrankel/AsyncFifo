@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="995.751 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.850 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="348"></NameColumnWidth>
+      <ValueColumnWidth column_width="357"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject type="array" fp_name="/tb/test_id">
+      <obj_property name="ElementShortName">test_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/w_clk">
+      <obj_property name="ElementShortName">w_clk</obj_property>
+      <obj_property name="ObjectShortName">w_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/w_rst">
+      <obj_property name="ElementShortName">w_rst</obj_property>
+      <obj_property name="ObjectShortName">w_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/write">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/w_data">
+      <obj_property name="ElementShortName">w_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/w_full">
+      <obj_property name="ElementShortName">w_full</obj_property>
+      <obj_property name="ObjectShortName">w_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/r_clk">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/r_rst">
+      <obj_property name="ElementShortName">r_rst</obj_property>
+      <obj_property name="ObjectShortName">r_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/read">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/r_data">
+      <obj_property name="ElementShortName">r_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/r_empty">
+      <obj_property name="ElementShortName">r_empty</obj_property>
+      <obj_property name="ObjectShortName">r_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/reset_p">
+      <obj_property name="ElementShortName">reset_p</obj_property>
+      <obj_property name="ObjectShortName">reset_p</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/cnt_wr">
+      <obj_property name="ElementShortName">cnt_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/cnt_rd">
+      <obj_property name="ElementShortName">cnt_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/cnt_ok">
+      <obj_property name="ElementShortName">cnt_ok[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_ok[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/cnt_error">
+      <obj_property name="ElementShortName">cnt_error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_error[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/show_ok">
+      <obj_property name="ElementShortName">show_ok[31:0]</obj_property>
+      <obj_property name="ObjectShortName">show_ok[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/show_error">
+      <obj_property name="ElementShortName">show_error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">show_error[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/test_start">
+      <obj_property name="ElementShortName">test_start</obj_property>
+      <obj_property name="ObjectShortName">test_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/test_timeout">
+      <obj_property name="ElementShortName">test_timeout</obj_property>
+      <obj_property name="ObjectShortName">test_timeout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/test_done">
+      <obj_property name="ElementShortName">test_done</obj_property>
+      <obj_property name="ObjectShortName">test_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/tick_current">
+      <obj_property name="ElementShortName">tick_current[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tick_current[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/expect_data">
+      <obj_property name="ElementShortName">expect_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">expect_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/delay_min">
+      <obj_property name="ElementShortName">delay_min[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_min[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/delay_max">
+      <obj_property name="ElementShortName">delay_max[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_max[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/delay_avr">
+      <obj_property name="ElementShortName">delay_avr</obj_property>
+      <obj_property name="ObjectShortName">delay_avr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/velocity">
+      <obj_property name="ElementShortName">velocity</obj_property>
+      <obj_property name="ObjectShortName">velocity</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb/cv_all">
+      <obj_property name="ElementShortName">cv_all</obj_property>
+      <obj_property name="ObjectShortName">cv_all</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/write_done">
+      <obj_property name="ElementShortName">write_done[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_done[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/WIDTH">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/MAX_TRANSACTION">
+      <obj_property name="ElementShortName">MAX_TRANSACTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_TRANSACTION[31:0]</obj_property>
+   </wvobject>
+</wave_config>

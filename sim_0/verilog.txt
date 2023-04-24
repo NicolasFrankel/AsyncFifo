@@ -1,0 +1,3 @@
+../src/gray_cnt.sv
+../src/fifo_async.sv
+../tb/testbench.sv

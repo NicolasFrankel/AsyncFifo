@@ -74,5 +74,8 @@ The clock domains are crossed between the w_addr, w_addr_r1 and r_addr, r_addr_w
 
 ## Opportunities for improvement  
 
-To use block memory, you need to use memory output reclocking. This requires additional logic to implement the output buffer. The delay will be increased, the complexity of the FIFO component will increase, but a higher frequency of operation of the FIFO component can be achieved.
+* Pass the clock period w_clk, r_rclk together with the test_id parameter;
+* Introduce obvious control of flags r_empty, w_full (currently they are controlled indirectly);
+* To use block memory, we need to use memory output reclocking. This requires additional logic to implement the output buffer. The delay will be increased, the complexity of the FIFO component will increase, but a higher frequency of operation of the FIFO component can be achieved.
+
 

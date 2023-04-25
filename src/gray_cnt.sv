@@ -39,8 +39,8 @@ module gray_cnt
         if( rstp ) begin  
             q[0]        <= #1 first_bit;  
             q[N-1:1]    <= #1 '0;  
-            out[0]        <= #1 first_bit;  
-            out[N-1:1]    <= #1 '0;  
+            out[0]      <= #1 first_bit;  
+            out[N-1:1]  <= #1 '0;  
         end else if( en ) begin  
             q <= #1 n_q;
             out <= #1 n_out;  

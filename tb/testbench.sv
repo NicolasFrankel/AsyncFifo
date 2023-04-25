@@ -1,6 +1,3 @@
-// Code your testbench here
-// or browse Examples
-
 
 module tb
   ();
@@ -135,13 +132,6 @@ fifo_async
     .r_data ,
     .r_empty
 );
-
-
-// // Insert the component bind_fifo_w8 into the component fifo_w8 for simulation purpose
-// bind fifo_256   bind_fifo_256  dut(.*); 
-
-//always @(posedge clk ) cv_all = $get_coverage();
-
 
 initial begin
     #40000000;

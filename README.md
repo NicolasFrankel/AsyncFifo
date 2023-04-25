@@ -69,7 +69,7 @@ The synthesis of the component was carried out, the main parameters. For example
 
 The clocks are set in the file fifo_async_ooc.xdc
 
-The clock domains are crossed between the w_addr, w_addr_r1 and r_addr, r_addr_w1 signals. When using a Gray counter, it is fundamentally important that the signal propagation delay be less than the smallest clock period. This limits are added to current xdc file.   
+The clock domains are crossed between the w_addr, w_addr_r1 and r_addr, r_addr_w1 signals. When using a Gray counter, it is fundamentally important that the signal propagation delay be less than the smallest clock period. This limits were added to the current xdc file.   
   
 
 ## Opportunities for improvement  

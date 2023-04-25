@@ -22,7 +22,6 @@ module fifo_async #(
     output logic r_empty
 );
 
-// Your code
 localparam max_size = 2**DEPTH_LOG2;
 
 logic [WIDTH-1:0]           mem[max_size];

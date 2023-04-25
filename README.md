@@ -58,7 +58,20 @@ test_id=    3 test_name:                 randomize         TEST_PASSED
 * The maximum number of words in a FIFO is 2^DEPTH_LOG2-1
 * Zero latency memory is used. This assumes the use of distributed memory in the Xilinx FPGA (based on LUTs)
 * Link to local project repository https://github.com/NicolasFrankel/AsyncFifo
+
+## Synthesys
+
+The synthesis of the component was carried out, the main parameters. For example, selected Xilix Ultrascale+ xcku3p-ffvb676-2-e
+* FIFO width - 16 bits
+* Number of words - 64
+* Write Clock 200 MHz
+* read  Clock 250 MHz
+
+The clocks are set in the file fifo_async_ooc.xdc
+
+The clock domains are crossed between the w_addr, w_addr_r1 and r_addr, r_addr_w1 signals. When using a Gray counter, it is fundamentally important that the signal propagation delay be less than the smallest clock period. This limits are added to current xdc file.   
   
+
 ## Opportunities for improvement  
 
 To use block memory, you need to use memory output reclocking. This requires additional logic to implement the output buffer. The delay will be increased, the complexity of the FIFO component will increase, but a higher frequency of operation of the FIFO component can be achieved.

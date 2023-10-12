@@ -26,13 +26,13 @@ localparam max_size = 2**DEPTH_LOG2;
 
 logic [WIDTH-1:0]           mem[max_size];
 
-logic [DEPTH_LOG2-1:0]      w_addr_next;
-logic [DEPTH_LOG2-1:0]      w_addr;
-logic [DEPTH_LOG2-1:0]      w_addr_r1;
-logic [DEPTH_LOG2-1:0]      w_addr_r2;
-logic [DEPTH_LOG2-1:0]      r_addr;
-logic [DEPTH_LOG2-1:0]      r_addr_w1;
-logic [DEPTH_LOG2-1:0]      r_addr_w2;
+logic [DEPTH_LOG2:0]      w_addr_next;
+logic [DEPTH_LOG2:0]      w_addr;
+logic [DEPTH_LOG2:0]      w_addr_r1;
+logic [DEPTH_LOG2:0]      w_addr_r2;
+logic [DEPTH_LOG2:0]      r_addr;
+logic [DEPTH_LOG2:0]      r_addr_w1;
+logic [DEPTH_LOG2:0]      r_addr_w2;
 
 logic                       w_step;
 logic                       r_step;
